@@ -19,7 +19,7 @@ class ProductsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Mis Patas Sucias'),
+        title: const Text('Products App'),
         leading: IconButton(
             onPressed: () {
               authService.signOut();
